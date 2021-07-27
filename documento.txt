@@ -1,0 +1,14 @@
+A. Segunda Avaliação
+1. Crie um pacote chamado “poo”.
+2. Dentro do pacote poo, crie uma classe chamada Veiculo
+3. Declare três atributos públicos: modelo e cor do tipo String e; ano do  tipo int .
+4. Crie um construtor padrão na classe Veículo
+5. Crie uma segunda classe chamada TestaVeiculo. Esta classe não deve fazer parte do pacote “poo”, e deve ser a classe principal do programa.
+6. Instancie dois objetos da classe Veiculo.
+7. Atribua valores para as três variáveis declaradas (modelo, cor e ano)  para os dois objetos criados.
+8. Mostre os valores de cada variável para cada objeto.
+9. Crie o método exibe() na classe Veiculo e faça a classe TestaVeiculo  utilizá-la para mostrar o valores das variáveis de cada objeto.
+10.Altere o modificador de acesso “public” dos atributos da classe Veiculo  para “private”. Compile e rode o programa. A classe TestaVeiculo  deverá apresentar erros.
+11.Para solucionar o problema crie o método modificador set() para cada  atributo e também o método acesso get().
+12.Modifique a classe TestaVeiculo para fazer as modificações nos valores  dos atributos usando os métodos set().
+13.Modifique o método exibe() definido na classe Veiculo para acessar os  objetos usando os métodos get().
